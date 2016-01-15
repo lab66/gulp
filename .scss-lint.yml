@@ -1,0 +1,21 @@
+linters:
+  Indentation:
+    enabled: true
+    character: space
+    width: 4
+  PropertySpelling:
+    enabled: true
+    extra_properties: [
+      '*display',
+      '*height',
+      '*padding-bottom',
+      '*padding-top',
+      '*vertical-align',
+      '*zoom'
+    ]
+  SelectorDepth:
+    enabled: false
+  DuplicateProperty:
+    enabled: false
+  ZeroUnit:
+    enabled: false
